@@ -1,0 +1,34 @@
+.header {
+  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerBtns {
+  display: flex;
+  align-items: center;
+}
+
+.header p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.loading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: all 200ms;
+  border-radius: 100%;
+  &:hover {
+    background-color: #0000001a;
+  }
+}

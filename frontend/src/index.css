@@ -1,0 +1,134 @@
+:root {
+  font-family: "Poppins", sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.scrollbar-h::-webkit-scrollbar-track {
+  margin-inline: 0.5rem;
+}
+
+.scrollbar-h::-webkit-scrollbar {
+  background-color: transparent;
+  height: 1.5rem;
+  opacity: 0;
+}
+
+.scrollbar-h::-webkit-scrollbar-thumb {
+  background-color: #9cb7c5;
+  border-radius: 1rem;
+  border: 0.5rem solid white;
+}
+
+.scrollbar-v::-webkit-scrollbar-track {
+  margin-block-end: 1rem;
+  margin-block-start: -0.5rem;
+}
+
+.scrollbar-v::-webkit-scrollbar {
+  background-color: transparent;
+  width: 1.5rem;
+}
+
+.scrollbar-v::-webkit-scrollbar-thumb {
+  background-color: #9cb7c5;
+  border-radius: 1rem;
+  border: 0.5rem solid #eef2f5;
+}
+
+.scrollbar-v-checklist::-webkit-scrollbar-track {
+  margin-block: -0.25rem;
+}
+
+.scrollbar-v-checklist::-webkit-scrollbar {
+  background-color: transparent;
+  width: 1rem;
+}
+
+.scrollbar-v-checklist::-webkit-scrollbar-thumb {
+  background-color: #9cb7c5;
+  border-radius: 1rem;
+  border: 0.3rem solid #ffffff;
+}
+
+.card-wrapper {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.react-calendar {
+  border: none;
+}
+
+.react-calendar__tile {
+  border: none;
+}
+
+.react-calendar__month-view {
+  border: none;
+}
+
+.react-calendar__navigation__label {
+  transition: all 200ms;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.react-calendar__navigation__arrow {
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: all 200ms;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+}
+
+.react-calendar__month-view__weekdays {
+  /* Add your custom styles for the days row here */
+  color: #777777;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+abbr[title] {
+  text-decoration: none;
+}
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen div {
+  width: 2rem;
+  height: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px white inset; /* Change the color to your own background color */
+}

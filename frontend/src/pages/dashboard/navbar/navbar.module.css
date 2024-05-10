@@ -1,0 +1,56 @@
+.nav {
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 2px solid #edf5fe;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.logout {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.passive {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #707070;
+  padding: 1rem 2rem;
+  transition: all 200ms;
+  cursor: pointer;
+  &:hover {
+    background-color: #4391ed1a;
+  }
+}
+
+.active {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background-color: #4391ed1a;
+  color: black;
+  transition: all 200ms;
+}

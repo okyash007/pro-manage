@@ -1,0 +1,51 @@
+.border {
+  border: 2px solid #e2e2e2;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.75rem;
+}
+
+.border p {
+  margin: 0;
+  overflow-wrap: break-word;
+  max-width: 90%;
+  font-weight: 600;
+}
+
+.inputTitle {
+  flex-grow: 1;
+  border: 0;
+  outline: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox svg {
+  border-radius: 0.35rem;
+}
+
+.unChecked {
+  border: 3px solid #e2e2e2;
+}
+
+.iconDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+  padding: 0.25rem;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: all 200ms;
+  &:hover {
+    background-color: #0000001a;
+  }
+}

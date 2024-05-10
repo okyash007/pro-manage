@@ -1,0 +1,60 @@
+.main {
+  width: 60%;
+}
+
+.main h1 {
+  margin: 0;
+  padding: 1rem 0 0 1rem;
+}
+
+.content {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  flex-grow: 1;
+  background-color: #f9fcff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.chip div {
+  background-color: #90c4cc;
+  border-radius: 100%;
+  aspect-ratio: 1;
+  width: 0.75rem;
+}
+
+.chip p {
+  margin: 0;
+}
+
+.loading {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

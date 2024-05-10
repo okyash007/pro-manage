@@ -1,0 +1,93 @@
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+.banner {
+  flex-grow: 1;
+  background-color: #17a2b8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+.box {
+  width: 40%;
+  min-width: 320px;
+  margin: auto 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5vw;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.submitBtn {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  margin: 1rem auto;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.text p {
+  color: #828282;
+}
+
+.imgBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.imgBox img {
+  margin: 2rem 1rem 0 0;
+}
+
+.img {
+  width: 19rem;
+  z-index: -1;
+  position: absolute;
+  aspect-ratio: 1;
+  background-color: #317f8b;
+  border-radius: 100%;
+}
+
+.subHeadings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.subHeadings p,
+.subHeadings h2 {
+  margin: 0;
+  color: white;
+}
+
+.error {
+  margin: 0;
+  font-size: 12px;
+  color: red;
+}
+
+.link button {
+  width: 100%;
+}

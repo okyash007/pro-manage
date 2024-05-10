@@ -1,0 +1,110 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav {
+  height: 10vh;
+  box-sizing: border-box;
+  padding: 1rem;
+  display: flex;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.heading h3 {
+  margin: 0;
+  color: black;
+}
+
+.content {
+  max-height: 90vh;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 2rem 0 2rem 2rem;
+  margin-inline: auto;
+  max-height: calc(90vh - 6rem);
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  border: 2px solid #e2e2e2;
+}
+
+.checklistCard {
+  border: 2px solid #e2e2e2;
+  display: flex;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.checklistCard p {
+  margin: 0;
+  overflow-wrap: break-word;
+  max-width: 90%;
+  font-weight: 600;
+}
+
+.checklistCard div {
+  cursor: default;
+}
+
+.checklists {
+  overflow-y: auto;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  scrollbar-gutter: stable;
+}
+.details h2,
+.details h3 {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+  padding-right: 2rem;
+}
+
+.title {
+  padding-bottom: 0.5rem;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.date p {
+  font-weight: 600;
+}
+
+.noDate {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 700px) {
+  .card {
+    width: 60%;
+  }
+}

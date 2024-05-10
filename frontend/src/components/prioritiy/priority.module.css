@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.color {
+  width: 10px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+}
+
+.box p {
+  color: #767575;
+  margin: 0;
+  font-size: 12px;
+}

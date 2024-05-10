@@ -1,0 +1,20 @@
+.loader {
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-left-color: transparent;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  animation: spin89345 1s linear infinite;
+  aspect-ratio: 1;
+  background-color: transparent;
+}
+
+@keyframes spin89345 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
