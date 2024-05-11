@@ -1,4 +1,4 @@
-export const backendUrl = "http://localhost:3000";
+export const backendUrl = "https://pro-manage-hqfm.onrender.com";
 export const frontendUrl = "http://localhost:5173";
 export const sections = ["backlog", "toDo", "inProgress", "done"];
 
