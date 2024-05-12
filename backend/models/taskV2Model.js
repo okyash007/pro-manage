@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const taskSchema = new mongoose.Schema(
+const taskV2Schema = new mongoose.Schema(
   {
     title: {
       type: String,
@@ -19,9 +19,8 @@ const taskSchema = new mongoose.Schema(
       type: Date,
     },
     section: {
-      type: String,
-      enum: ["backlog", "toDo", "inProgress", "done"],
-      default: "toDo",
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Section",
       required: true,
     },
     user: {
@@ -29,11 +28,22 @@ const taskSchema = new mongoose.Schema(
       ref: "User",
       required: true,
     },
-    checklists: [{ type: mongoose.Schema.Types.ObjectId, ref: "Checklist" }],
+    checklists: [
+      {
+        title: {
+          type: String,
+          require: true,
+        },
+        isDone: {
+          type: Boolean,
+          default: false,
+        },
+      },
+    ],
   },
   { timestamps: true }
 );
 
-const Task = mongoose.model("Task", taskSchema);
+const TaskV2 = mongoose.model("Task-v2", taskV2Schema);
 
-export default Task;
+export default TaskV2;
