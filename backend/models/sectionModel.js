@@ -16,6 +16,6 @@ const sectionSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const User = mongoose.model("User", sectionSchema);
+const Section = mongoose.model("Section", sectionSchema);
 
-export default User;
+export default Section;
