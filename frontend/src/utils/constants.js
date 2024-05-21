@@ -1,4 +1,4 @@
-export const backendUrl = "https://pro-manage-hqfm.onrender.com";
+export const backendUrl = "https://pro-manage-4hkh.onrender.com";
 export const frontendUrl = "https://pro-manage-yash.vercel.app";
 export const sections = ["backlog", "toDo", "inProgress", "done"];
 
