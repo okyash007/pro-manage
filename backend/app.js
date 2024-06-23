@@ -8,7 +8,11 @@ export const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://promanage-frontend.vercel.app", "https://pro-manage-yash.vercel.app"],
+    origin: [
+      "http://localhost:5173",
+      "https://promanage-frontend.vercel.app",
+      "https://pro-manage-yash.vercel.app",
+    ],
     credentials: true,
   })
 );
