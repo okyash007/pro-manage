@@ -12,6 +12,7 @@ app.use(
       "http://localhost:5173",
       "https://promanage-frontend.vercel.app",
       "https://pro-manage-yash.vercel.app",
+      "https://pro-manage.okyash.tech",
     ],
     credentials: true,
   })
